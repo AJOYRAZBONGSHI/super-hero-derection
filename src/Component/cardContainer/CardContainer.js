@@ -14,7 +14,11 @@ const CardContainer = () => {
 
     const handleAddToLaLibrary = (card) => {
 
-        const newPoetList = [...addToLaLibrary, card];
+        const newPoetList = [...addToLaLibrary];
+        const existing = addToLaLibrary.find(added => added.name === card.name);
+        if (!existing) {
+            newPoetList.push(card);
+        }
         setAddToLaLibrary(newPoetList);
     }
     return (

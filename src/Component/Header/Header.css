@@ -1,9 +1,11 @@
+/* header style */
 .header {
   text-align: center;
   background-color: lightcyan;
   padding: 30px;
   color: green;
 }
+
 .budget {
   color: purple;
 }
