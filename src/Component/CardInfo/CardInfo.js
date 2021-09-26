@@ -19,7 +19,7 @@ const CardInfo = (props) => {
             </dir>
             <div>
                 <ul className='poet-list'>
-                    <h3>{names}</h3><br />
+                    <h4>{names}</h4> <br />
                 </ul>
             </div>
         </div>
