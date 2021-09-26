@@ -1,0 +1,26 @@
+.card {
+  background-color: lightcyan;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 10px 10px 10px lightslategrey;
+}
+.card img {
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.add-button {
+  padding: 10px 15px;
+  margin: 20px 0 5px 60px;
+  border: 3px solid cyan;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+.card h3,
+h4 {
+  margin: 5px 0;
+}
